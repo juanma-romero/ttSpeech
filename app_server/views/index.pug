@@ -1,0 +1,20 @@
+extends layout
+
+
+block content
+  h1 Contenido
+  p Salarza salarza como funciona esto che gato
+  .form-group
+    label(for='exampleFormControlTextarea1') Example textarea
+    textarea#exampleFormControlTextarea1.form-control(rows='3')
+    button.btn.btn-info.btn-circle(type='button') Stress
+    button.btn.btn-info.btn-circle(type='button') Break
+    button.btn.btn-info.btn-circle(type='button') Volume
+    button.btn.btn-info.btn-circle(type='button') Rate
+  button.btn.btn-primary(type='button') Generate preview    
+  audio(controls='')
+    source(src='horse.ogg' type='audio/ogg')
+
+  button.btn.btn-success.btn-lg.btn-block(type='button') Download
+
+  
